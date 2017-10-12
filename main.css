@@ -1,4 +1,32 @@
 body{
-  margin:0;
-  background-color:goldenrod;
+  font-family: "Helvetica","Arial",serif;
+  color:rgb(25, 145, 218);
+  background-color: rgb(168, 189, 217);
+  margin: lem 10%;
+}
+h1{
+  background-color: transparent;
+}
+a{
+  color: rgba(205, 127, 106, 0.49);
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+li{
+
+  padding: 1em;
+  list-style: none;
+}
+#imagegallery {
+  list-style: none;
+}
+#imagegallery li {
+  display: inline;
+}
+#imagegallery li a img {
+  border: 0;
 }
